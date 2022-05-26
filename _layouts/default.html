@@ -1,0 +1,83 @@
+﻿<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+<!--
+==================================================
+Manual Metadata
+================================================== -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <meta name="description" content="{{ page.title }} - {{ site.name }}" />
+    <meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}" />
+<!--
+==================================================
+favicon
+================================================== -->
+    <link rel="shortcut icon" href="/favicon.ico">
+
+<!--
+==================================================
+ CSS
+================================================== -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+    <script src="https://kit.fontawesome.com/3f7330d0fa.js" crossorigin="anonymous"></script>
+
+{% if site.google_g4_analytics_id != empty %}
+<!--
+==================================================
+Google analytics G4
+================================================== -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_g4_analytics_id }}"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){window.dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', '{{ site.google_g4_analytics_id }}');
+		</script>
+
+{% endif %}
+<!--
+==================================================
+Jekyll SEO Tag
+================================================== -->
+{% seo %}
+
+</head>
+<body id="the-body">
+
+
+<div class="sticky-footer-css">
+<div class="columns sticky-footer-css-body text-center">
+<div class="portfolio-resume-scrolling-container row">
+  <div class="columns small-12 medium-5 portfolio-resume-overview">
+    <div class="portfolio-resume-overview-content">
+      <h3 class="portfolio-resume-name">{{site.title}}</h3>
+      <p>TOC</p>
+      <a class="button primary expanded" href="#">Contact Me</a>
+    </div>
+  </div>
+  <div class="columns small-12 medium-7 portfolio-resume-scrolling">
+
+		{{content}}
+
+  </div>
+</div>
+<div class="columns shrink footer text-center">
+<p>Footer</p>
+<ul class="menu align-center">
+<li><a href="">Link</a></li>
+<li><a href="">Link</a></li>
+<li><a href="">Link</a></li>
+</ul>
+</div>
+</div>
+
+    <script src="{{ site.baseurl }}/js/vendor/jquery.js"></script>
+    <script src="{{ site.baseurl }}/js/vendor/what-input.js"></script>
+    <script src="{{ site.baseurl }}/js/vendor/foundation.js"></script>
+    <script src="{{ site.baseurl }}/js/app.js"></script>
+  </body>
+</html>
