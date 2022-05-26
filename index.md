@@ -1,3 +1,6 @@
+---
+---
+
 <div class="portfolio-resume-scrolling-container row">
   <div class="columns small-12 medium-5 portfolio-resume-overview">
     <div class="portfolio-resume-overview-content">
