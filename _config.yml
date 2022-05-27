@@ -1,1 +1,38 @@
-# remote-theme: minimal-mistakes-jekyll
+# Title of your website
+title: 'A Diachronic Conversation with 19th Century War Correspondents and 21st century Historians'
+
+# Title of your website
+subtitle: 'digital history, archival deep-dives, and US imperialism in Cuba’s Second War of Independence'
+
+# Maximum of 150 characters for SEO-purposes.
+description: "A digital-history exploration of imperialist narratives in Cuba's Second War of Independence. AHR History Lab, by Arlene Diaz, Kalani Craig & David Kloster."
+
+# This URL is the main address for absolute links. Don't include a slash at the end.
+#
+url: ''
+baseurl: ''
+
+# This URL points directly to the images directory making
+# things easier to link to images in posts and templates. It needs a slash at the end.
+#
+# Example: <img src="{{ site.url }}{{ site.baseurl }}{{ site.urlimg }}{{ post.image.title }}" />
+# Markdown-Example for posts ![Image Text]({{ site.url }}{{ site.baseurl }}{{ site.urlimg }}image.jpg)
+#
+urlimg: '/assets/img/'
+destination: docs/
+permalink:   /:categories/:title/
+
+year : 2022
+markdown : kramdown
+exclude :
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+
+#plugins:
+#  - jekyll-seo-tag
+
+google_analytics_tracking_id: UA-11680223-1
+google_g4_analytics_id: G-LVREG1Y1DT
+
