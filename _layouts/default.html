@@ -45,89 +45,39 @@ Jekyll SEO Tag
 ================================================== -->
 
 </head>
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-  </head>
-  <body>
+<body id="the_body">
 
-    <!-- Start Top Bar -->
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text">Yeti Agency</li>
-        </ul>
-      </div>
-      <div class="top-bar-right">
-        <ul class="menu">
-          <li><a href="#">One</a></li>
-          <li><a href="#">Two</a></li>
-          <li><a href="#">Three</a></li>
-          <li><a href="#">Four</a></li>
-        </ul>
-      </div>
-    </div>
-    <!-- End Top Bar -->
+<div class="fluid header sticky">
+<div class="grid-container">
+  <div class="grid-x grid-margin-x">
+    <div class="cell small-12 text-center">
+		<h1 class="font-wide">{{site.title}}</h1>
+		<h2 class="font-wide">{{site.subtitle}}</h2>
+	</div>
+  </div>
+</div>
+</div>
 
-    <div class="callout large primary">
-      <div class="row column text-center">
-        <h1>{{site.title}}</h1>
-        <h3>{{site.subtitle}}</h3>
-      </div>
-    </div>
+<main>
 
-    <div class="row" id="content">
-      <div class="medium-8 columns">
+<div class="grid-container">
+  <div class="grid-x grid-margin-x">
+    <div class="cell small-12 medium-9 small-order-2 medium-order-1" id="article">
+		{{content}}
+	</div>
+    <div class="cell small-12 medium-3 small-order-1 medium-order-2">
+        <div class="sticky nav" data-sticky data-anchor="article">
+		    <nav class="section-nav">
 
-{{content}}
+		{% include _sidebar_{{page.sidebar}}.html %}
 
-      </div>
-      <div class="medium-3 columns" data-sticky-container>
-        <div class="sticky" data-sticky data-anchor="content">
-<ul id="markdown-toc">
-  <li><a href="#table-of-contents" id="markdown-toc-table-of-contents">Table of Contents</a></li>
-  <li><a href="#a-diachronic-conversation-with-19th-century-war-correspondents-and-21st-century-historians-digital-history-archival-deep-dives-and-us-imperialism-in-cubas-second-war-of-independence" id="markdown-toc-a-diachronic-conversation-with-19th-century-war-correspondents-and-21st-century-historians-digital-history-archival-deep-dives-and-us-imperialism-in-cubas-second-war-of-independence">A Diachronic Conversation with 19th Century War Correspondents and 21st century Historians: digital history, archival deep-dives, and US imperialism in Cuba’s Second War of Independence</a></li>
-  <li><a href="#the-historiographic-stakes-of-late-19th-century-caribbean-history" id="markdown-toc-the-historiographic-stakes-of-late-19th-century-caribbean-history">The historiographic stakes of late 19th-century Caribbean history</a>    <ul>
-      <li><a href="#how-do-we-build-empire-and-histories-of-empire" id="markdown-toc-how-do-we-build-empire-and-histories-of-empire">How do we build empire (and histories of empire)?</a></li>
-      <li><a href="#representation-war-correspondents-and-empire-making" id="markdown-toc-representation-war-correspondents-and-empire-making">Representation, War Correspondents and Empire-Making</a></li>
-      <li><a href="#gomez--as-a-person-of-interest-why" id="markdown-toc-gomez--as-a-person-of-interest-why">Gomez- as a person of interest. Why?</a></li>
-      <li><a href="#at-the-beginning-i-could-not-see-the-beauty-of-it-grounding-history-in-method-driven-approaches" id="markdown-toc-at-the-beginning-i-could-not-see-the-beauty-of-it-grounding-history-in-method-driven-approaches">“At the beginning, I could not see the beauty of it”: Grounding History in Method-Driven Approaches</a>        <ul>
-          <li><a href="#an-overview-of-mixed-method-approaches-to-collaborative-history-mmatchdefgas-a-solution-to-the-epistemological-challenges-of-digital-historyh" id="markdown-toc-an-overview-of-mixed-method-approaches-to-collaborative-history-mmatchdefgas-a-solution-to-the-epistemological-challenges-of-digital-historyh">An overview of Mixed-Method Approaches To Collaborative History (MMATCH)[d][e][f][g] as a solution to the epistemological challenges of digital history[h]</a></li>
-          <li><a href="#mmatch-in-integrating-computational-and-close-reading-histories-of-the-cuban-war-of-independence" id="markdown-toc-mmatch-in-integrating-computational-and-close-reading-histories-of-the-cuban-war-of-independence">MMATCH in integrating computational and close-reading histories of the Cuban War of Independence</a>            <ul>
-              <li><a href="#step-1-sourcing-periodization-and-corpusbuilding" id="markdown-toc-step-1-sourcing-periodization-and-corpusbuilding">Step 1: Sourcing, periodization and corpus building</a></li>
-              <li><a href="#step-2-parallel-computational-and-close-reading-analysis" id="markdown-toc-step-2-parallel-computational-and-close-reading-analysis">Step 2: Parallel computational and close-reading analysis</a></li>
-              <li><a href="#step-3-dialogue-based-triangulation" id="markdown-toc-step-3-dialogue-based-triangulation">Step 3: Dialogue-based triangulation</a>                <ul>
-                  <li><a href="#draft-results-from-step-3-first-approach" id="markdown-toc-draft-results-from-step-3-first-approach">Draft results from Step 3, first approach</a></li>
-                </ul>
-              </li>
-              <li><a href="#step-4-revised-parallel-analysis" id="markdown-toc-step-4-revised-parallel-analysis">Step 4: Revised parallel analysis:</a></li>
-              <li><a href="#step-5" id="markdown-toc-step-5">Step 5</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li><a href="#its-more-meaningful-to-do-this-together-a-collaborative-analysis-of-cuba-from-the-perspectives-of-three-war-correspondents" id="markdown-toc-its-more-meaningful-to-do-this-together-a-collaborative-analysis-of-cuba-from-the-perspectives-of-three-war-correspondents">“It’s more meaningful to do this together”: A Collaborative Analysis of Cuba from the Perspectives of Three War Correspondents</a>        <ul>
-          <li><a href="#mmatch-step-5-results-information-misinformation-and-connections-in-cuba-xxxx-words-both-but-hang-on-to-this-until-we-can-write-together" id="markdown-toc-mmatch-step-5-results-information-misinformation-and-connections-in-cuba-xxxx-words-both-but-hang-on-to-this-until-we-can-write-together">MMATCH Step 5: Results: Information, Misinformation, and Connections in Cuba (XXXX words) (BOTH BUT HANG ON TO THIS UNTIL WE CAN WRITE TOGETHER)</a></li>
-          <li><a href="#corpus-linguistics-antconc-exploration-of-all-3-authors" id="markdown-toc-corpus-linguistics-antconc-exploration-of-all-3-authors">Corpus Linguistics AntConc exploration of all 3 authors</a>            <ul>
-              <li><a href="#flint-writes-in-1896" id="markdown-toc-flint-writes-in-1896">Flint (writes in 1896)</a></li>
-              <li><a href="#rea-writes-in-1897" id="markdown-toc-rea-writes-in-1897">Rea (writes in 1897)</a></li>
-              <li><a href="#scovel-writes-from-1896-to-1898" id="markdown-toc-scovel-writes-from-1896-to-1898">Scovel (writes from 1896 to 1898)</a></li>
-            </ul>
-          </li>
-          <li><a href="#information-and-misinformation" id="markdown-toc-information-and-misinformation">Information and Misinformation</a></li>
-          <li><a href="#connections-between-cuba-and-maceospain-and-gomez" id="markdown-toc-connections-between-cuba-and-maceospain-and-gomez">Connections Between Cuba and Maceo/Spain and Gomez</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li><a href="#conclusion-travelogues-truth-tradition-and-translation" id="markdown-toc-conclusion-travelogues-truth-tradition-and-translation">Conclusion: Travelogues, Truth, Tradition and Translation</a></li>
-</ul>        </div>
-      </div>
-    </div>
+		    </nav>
+		</div>
+	</div>
+  </div>
+</div>
+</main>
+
 
 
 
@@ -135,5 +85,26 @@ Jekyll SEO Tag
     <script src="{{ site.baseurl }}/js/vendor/what-input.js"></script>
     <script src="{{ site.baseurl }}/js/vendor/foundation.js"></script>
     <script src="{{ site.baseurl }}/js/app.js"></script>
+    <script>
+window.addEventListener('DOMContentLoaded', () => {
+
+	const observer = new IntersectionObserver(entries => {
+		entries.forEach(entry => {
+			const id = entry.target.getAttribute('id');
+			if (entry.intersectionRatio > 0) {
+				document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.add('active');
+			} else {
+				document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.remove('active');
+			}
+		});
+	});
+
+	// Track all sections that have an `id` applied
+	document.querySelectorAll('section[id]').forEach((section) => {
+		observer.observe(section);
+	});
+	
+});
+</script>
   </body>
 </html>

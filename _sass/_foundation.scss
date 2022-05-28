@@ -5,7 +5,6 @@
  * https://get.foundation
  * Licensed under MIT Open Source
  */
-
 @media print, screen and (min-width: 40em) {
   .reveal, .reveal.tiny, .reveal.small, .reveal.large {
     right: auto;
@@ -283,6 +282,7 @@ textarea {
 .grid-x {
   display: -webkit-box;
   display: -webkit-flex;
+  display: -webkit-flexbox;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
@@ -1824,6 +1824,7 @@ textarea {
           justify-content: flex-end; }
 
 .align-center {
+  -webkit-flexbox-pack: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -4989,7 +4990,11 @@ html.is-reveal-open {
         -ms-transform: translateX(-50%);
             transform: translateX(-50%); }
 
+.sticky-container {
+  position: relative; }
+
 .sticky {
+  position: relative;
   z-index: 0;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); }
@@ -5004,6 +5009,7 @@ html.is-reveal-open {
     bottom: 0; }
 
 .sticky.is-anchored {
+  position: relative;
   right: auto;
   left: auto; }
   .sticky.is-anchored.is-at-bottom {
@@ -5443,7 +5449,7 @@ a.thumbnail {
           flex-wrap: wrap; }
   .top-bar,
   .top-bar ul {
-    background-color: #1a373b; }
+    background-color: #e6e6e6; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }

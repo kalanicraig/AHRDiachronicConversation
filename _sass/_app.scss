@@ -1,88 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
 
-.sticky-social-bar {
-  padding: 0;
-  margin: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  width: 11.25rem;
-  background-color: #333333;
-  position: fixed;
-  left: -8.75rem;
+$main-color: #000000;
+$accent-color: #7c2361;
+$light-color: #fafafa;
+
+
+body {
+	background-color: #ffffff;
+	color: $main-color;
+	font-family: 'Merriweather', serif;	
+	font-size: 1em;
+	line-height: 1em;
 }
 
-.sticky-social-bar .social-icon {
-  list-style-type: none;
-  color: #fefefe;
-  background-color: inherit;
-  margin: 0;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  font-size: 1.1rem;
-  padding: 0.25rem 0.25rem 0.5rem;
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+	color: $main-color;
 }
 
-.sticky-social-bar .social-icon:first-of-type {
-  padding-top: 0.375rem;
+h1, .h1 {
+	font-family: 'Merriweather', serif;
+	font-size: 1.5rem;
+	line-height: 1.65rem;
+	text-transform: uppercase;
+	padding-top: .5em;
+	color: $accent-color;
+	border-top: $accent-color solid 1px;
+	text-align: center;
+	font-weight:600;
 }
 
-.sticky-social-bar .social-icon:last-of-type {
-  padding-bottom: 0.625rem;
+h2, .h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.25rem;
+	line-height: 1.65rem;
+	text-transform: uppercase;
+	color: $accent-color;
+	border-top: $accent-color solid 1px;
+	font-weight:600;
 }
 
-.sticky-social-bar .social-icon > a {
-  color: inherit;
-  background-color: inherit;
+h3, .h3 {
+	font-family: 'Merriweather', serif;
+	font-size: 1.0rem;
+	padding-top: .5em;
+	color: $accent-color;
+	font-weight:500;
 }
 
-.sticky-social-bar .social-icon > a > .fa {
-  padding: 0.5rem;
-  width: 2rem;
-  height: 2rem;
-  float: right;
-  margin-left: 0.5rem;
+h4, .h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.0rem;
+	padding-top: .5em;
+	color: $accent-color;
+	font-weight:500;
 }
 
-.sticky-social-bar .social-icon > a > .fa.fa-facebook {
-  background-color: #3b5998;
+.header {
+	background-color: $accent-color;
+	padding: .5em 0 0 0;
+	margin-bottom: .5em;
+	margin-top:-1em;
 }
 
-.sticky-social-bar .social-icon > a > .fa.fa-twitter {
-  background-color: #55acee;
+.header h1, .header h2 {
+	line-height: 1.8rem;
+	color: $light-color;
 }
 
-.sticky-social-bar .social-icon > a > .fa.fa-linkedin {
-  background-color: #007bb5;
+.section-nav ul {
+	list-style-type: none; 
 }
 
-.sticky-social-bar .social-icon > a > .fa.fa-youtube {
-  background-color: #bb0000;
+.section-nav ul ul {
+	font-size: .85rem;
 }
 
-.sticky-social-bar .social-icon > a > .fa.fa-instagram {
-  background-color: #125688;
+.section-nav a {
+    transition: all 100ms ease-in-out;
 }
 
-.sticky-social-bar .social-icon > a > .fa.fa-pinterest-p {
-  background-color: #cb2027;
+.section-nav li.active > a {
+	color: $accent-color;
+	font-weight: 600;
+	margin: .5em 0 0 0;
+	padding: 0 0 0 .25em;
+	border-left: $accent-color solid 1px;
 }
 
-.sticky-social-bar .social-icon > a > .social-icon-text {
-  font-size: 80%;
-  color: #fefefe;
+/* Sidebar Navigation */
+.section-nav {
+  padding-left: 0;
+}
+
+.section-nav a {
+	text-decoration: none;
+	display: block;
+	margin: .5em 0 0 0;
+	padding: 0 0 0 .25em;
+	border-left: #ccc solid 1px;
+	color: #ccc;
+	transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+}
+
+.section-nav a:hover,
+.section-nav a:focus {
+	color: #666;
+	padding-left: .1em;
+}
+
+.subtitle {
+	padding-top: 12px;
+	padding-left: 24px;
+	margin-bottom: 20px;
+	color: #7c2361;
+	border-top: #7c2361 solid 1px;
+}
+
+
+.pull-quote {
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-style: normal;
+  font-size: 1.125rem;
+  max-width: 50%;
+  line-height: 1.25em;
   text-transform: uppercase;
-  margin-right: 0.5rem;
+  color: #1779ba;
+  float: right;
+  margin: 10px 0 0 20px;
+  background: linear-gradient(#767676, #1779ba);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.sticky-social-bar .social-icon:hover {
-  -webkit-transform: translateX(8.75rem);
-      -ms-transform: translateX(8.75rem);
-          transform: translateX(8.75rem);
+.pull-quote:before {
+  content: '';
 }
 
-.sticky-social-bar .social-icon:hover > a {
-  color: inherit;
-  background-color: inherit;
+.pull-quote:after {
+  content: '';
+}
+
+@media print, screen and (min-width: 40em) {
+  .pull-quote {
+    font-size: 1.875rem;
+    max-width: calc(50% - 5%);
+    margin-right: -15%;
+  }
+}
+
+@media print, screen and (min-width: 64em) {
+  .pull-quote {
+    max-width: calc(50% + 5%);
+    margin-right: -25%;
+  }
 }
 
