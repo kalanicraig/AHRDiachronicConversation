@@ -26,7 +26,9 @@ However, an in-depth analysis of sources from the three countries reveal that th
  
 Many US historians working on this war focused on a portion of what had been a much longer conflict between Cuba and Spain that started in 1868. Encapsulating the event to 1898 not only iterates the claim that the United States became imperial by accident –provoked by the sinking of the USS Maine–and that, consequently, the country had to suddenly “learn” to become an empire after 1898.[2] In addition, such historiographical focus contributed to the labeling of the event as the “Spanish-American War” which erases Cubans as the protagonists in their own wars of independence.[3]<label for="sidenote-3" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sidenote-3" class="margin-toggle sf-hidden">
-<span class="sidenote"> An empire does not just “happen,” nor it becomes suddenly accepted and rallied by much of the US public at the time without an established ideological framework where those actions by the US government and military could be deemed logical and justifiable to the citizenry.[4]<label for="sidenote-4" class="margin-toggle sidenote-number"></label>
+<span class="sidenote">
+
+An empire does not just “happen,” nor it becomes suddenly accepted and rallied by much of the US public at the time without an established ideological framework where those actions by the US government and military could be deemed logical and justifiable to the citizenry.[4]<label for="sidenote-4" class="margin-toggle sidenote-number"></label>
 <input type="checkbox" id="sidenote-4" class="margin-toggle sf-hidden">
 <span class="sidenote">
 
@@ -37,8 +39,9 @@ Many US historians working on this war focused on a portion of what had been a m
 
 How does an empire make its actions meaningful to its subjects/people/citizens? How do those values weave themselves into everyday life and in the one-on-one on-the ground interactions between imperial agents and local inhabitants? These questions have informed scholars concerned with the cultural workings of imperialism as it has become clear that language, representation and the meanings they encrypt are key cogs in the empire-building machinery.[5] The use of coded hierarchical discourses in texts and visual representations play a role in justifying and naturalizing domination and, as such, informs and prepares audiences to support actions that legitimize the power of ruling or aspiring political elites or groups. Formal empires may be disappearing as political entities, but the use of operations of discourse that encrypts unequal power relationships, that justifies and normalizes dominion and the silencing of others who the narrative dismisses as powerless and of lesser importance to a purportedly superior civilization continues to this day. Yet, how can the meaning-making powers of the empire be rendered visible to the researcher when much of those coded meanings have been normalized and taken for granted? This essay tackles these issues in two parts.[6] First, we will address the historical problems informing this study through an example of US war correspondents who interviewed and produced texts on a Cuban insurgent general during the Spanish-Cuban-American war; the second part addresses how the use of computational linguistic tools facilitated the identification of key topics within the contexts of the words that surrounded them in a piece of writing, which allowed us to interpret their meanings based on both its digital outputs and historical context.
 
-{% assign framelink = "/Viz/Flint10.html" %}
-{% include _responsiveframe.html %}
+<div class="responsive-embed" style="float:right;">
+  <iframe width="420" height="315" src="/Viz/Flint10.html" frameborder="0" allowfullscreen></iframe>
+</div>
 
 </section>
 <section id="empire-making" markdown=1>
@@ -60,7 +63,9 @@ Expeditionaries, travelers, reporters, scholars have all been important historic
 
 <div class="epigraph"><blockquote markdown=1>At the beginning, I could not see the beauty of it. Initially this felt like it’s in the theoretical stratosphere. The practical reality is that I can see [<strong>in the different visualizations it provides</strong>] what I’m thinking about as a scholar grounded in the trends the data gives to me, but that the interpretive methods, and the data itself, need to be curated.
 
-- *Arlene, in conversation*</blockquote></div>
+- *Arlene, in conversation*
+
+</blockquote></div>
 
 As with many histories, we’ve rooted our epistemology–how we “know” the history of the Cuban War of Independence–in the space between our own positionality, primary source close-reading, and the expertise contained in the historiographic body of secondary sources in which we situate ourselves as scholars of a particular subfield. The suspension of a scholar between personal interpretation, source material, and external scholarly traditions has a long-standing, if elitist, history. From the late-Antique paideia that marked a young man as part of the Greek-educated elite to the shared-world-view weltanschauung or bildung of the well-educated European, scholarly knowledge of the humanist bent is built on the hermeneutic ability of well-trained scholars with a common worldview and shared scholarly tradition. Incorporating digital methods, then, can seem like a disruptor in the worst of possible ways, a button we push that bypasses the individual scholar with analysis spit out by a computer and reproduced without question.
 
