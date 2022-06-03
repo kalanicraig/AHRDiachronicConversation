@@ -74,12 +74,18 @@ div.epigraph > blockquote > footer > cite {
 }
 /* end chapter epigraphs styles */
 
+/* sidenotes */
+
+input.margin-toggle {
+display: none;
+}
+
 .sidenote,
 .marginnote {
     float: right;
     clear: right;
-    margin-right: -60%;
-    width: 50%;
+    margin-right: -45%;
+    width: 40%;
     margin-top: 0.3rem;
     margin-bottom: 0;
     line-height: 1.3;
