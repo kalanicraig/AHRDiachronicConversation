@@ -40,7 +40,7 @@ How does an empire make its actions meaningful to its subjects/people/citizens? 
 [^1.6]: These questions are inspired by the work of Mary Louis Pratt, Imperial Eyes: Travel Writing and Transculturation (New York; Routledge, 1992), xiii, 3-4. Scholars working on the cultural workings of empire include: Ricardo Salvatore Disciplinary Conquest, Lanny Thompson, Imperial Archipelago, Peter Hulme**, Mary Louis Pratt, Rolena Adorno, Marial Iglesias Upset, Cultural History of Cuba, Louis A. Perez, Jr., Cuba in the American Imagination, ***
 
 <div class="responsive-embed" style="float:right;">
-[] <iframe width="420" height="315" src="{{site.baseurl}}/Viz/Flint_10.html" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="{{site.baseurl}}/Viz/Flint_10.html" frameborder="0" allowfullscreen></iframe>
 </div>
 
 </section>
