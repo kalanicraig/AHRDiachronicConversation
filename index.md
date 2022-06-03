@@ -132,7 +132,7 @@ On the social science side, the need for repeatability and validation necessitat
 [^2.7]: E.g. Creswell, John W., and Abbas Tashakkori. “Editorial: Developing Publishable Mixed Methods Manuscripts.” Journal of Mixed Methods Research 1, no. 2 (April 2007): 107–11. https://doi.org/10.1177/1558689806298644. The authors note that “A methodological/theoretical mixed methods manuscript improves our knowledge of how to conduct mixed methods research and/or to better understand its philosophical foundations.”
 [^2.8]: Drucker again: “rhetoric taken wholesale from the techniques of the empirical sciences that conceals their epistemological biases under a guise of familiarity.” CITE
 
-![Creswell, triangulation]({{ site.url }}{{ site.baseurl }}{{ site.urlimg }}/MMATCHFlowchart.png)
+![Creswell, triangulation]({{ site.url }}{{ site.baseurl }}{{ site.urlimg }}/MMATCHFlowchart.jpg)
 
 MMATCH addresses both of these by documenting the value of informal discussions that often contribute meaningfully to the development of historical scholarship but are waved away as unciteable ‘conversations’ with minimal effect on authorship. MMATCH instead positions the conference-hallway conversation and conversations like it as the primary site of both capta collection and analysis. It also builds a collaborative positionality among the specific authors of a piece of historical analysis while still offering a repeatable process (even if the results aren’t necessarily empirically repeatable). The epistemological stakes of this approach, then, are threefold:
 
