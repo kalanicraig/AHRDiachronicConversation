@@ -250,7 +250,10 @@ Let's return to our case-study example of Flint and Rea's treatment of women in 
 
 Corpus Linguistics AntConc exploration of all 3 authors
 
-Neutral technocratic good/bad is a manufacturing of good/bad that aligns with imperialist expansionist principles. (invisibility of Cubans; they are disappeared in the narrative). The narrative manufactures reality, and that’s what makes language, and our computational approaches to dissociating our positionality from the language, so important so that we can see better. THIS LEADS US TO OUR LAST INTRO.
+**FILL OUT JUN 9-15**: Neutral technocratic good/bad is a manufacturing of good/bad that aligns with imperialist expansionist principles. Silencing the imperialist subjects and making them invisible is a strategy of imperial communication. Cubans are made invisibile in all of the works of war correspondents; they are disappeared in the narrative). The narrative manufactures reality, and that’s what makes language, and our computational approaches to dissociating our positionality from the language, so important so that we can see better. Expansionism is also a key factor in the disappearance of the people of Cuba. By both gendering Cuba as a women (see section on Amazons) and disappearing its people, the war correspondents render Cuba as an empty female waiting to be filled by the presence of imperial forces (whether Cuba's femininty is white and pristine or "mulatto" and dangerous.) Ann McClean CITE FROM INTRO.
+
+When would-be imperial subjects are visible, they are connected to nature and disconnected from the modernity of core imperial life. Gomez and the use of machetes is one of those connections.
+
 
 OVERARCHING QUESTION ABOUT GOMEZ AS CONTROVERSIAL (vs Maceo as brave and Black and already established in terms of his braveness, so he’s a less clickbaity character; see Flint section on our identification of clickbait/hook as a thing).
 
