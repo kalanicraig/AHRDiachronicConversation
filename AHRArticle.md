@@ -17,6 +17,8 @@ sidebar: toc
 
 ## The historiographic stakes of late 19th-century Caribbean history
 
+**Major edits for this section will happen in Word. Kalani will 
+
 At first glance, US historiography on the Spanish-Cuban-American War (1895-1898) may seem extensive. However, most of what has been written privileged the US perspective on the war, mostly focused on the moment when the United States militarily intervened in the ongoing armed conflict between Spain and Cuba, and justified their actions as a fulfillment of their moral duty to help Cubans gain their independence.[^1-1]
 
 [^1-1]: See Louis A. Pérez Jr., Cuba in American Imagination
@@ -198,7 +200,7 @@ Among those considerations were our choice of stop words (words that the computa
 
 One of those areas of consideration offers a good case-study of the method. In the computational analysis of Flint Kalani noted a topic that depended heavily on the female pronoun "she". Arlene initially flagged these as references to the Maine, the ship that sank in 1898 and was used to framed the narratives about 1896 and 1897 presented by Flint, Scovel and Rea. We went back to the primary source texts and the first occurrence we came across was a reference to the wife of a Cuban doctor who traveled with General Gomez and his troops.[^3-2] The difference between Kalani's assumptions about "she" and Arlene's assumptions about "she" suggested a further exploration was necessary.[^3-3] We used AntConc (a corpus-linguistics tool that shows all the occurrences of an identified word in their original context), and found 4 patterns. Two had to do with concepts: the Maine as Arlene had originally assumed, though this was a smaller percentage of the total mentions than either of us had expected.[^3-4] More interesting were the references to women traveling with Gomez' army, including Dr. Hernandez' wife and another married woman traveling with her husband, one of whom was described as an Amazon wielding a machete.[^3-5]
 
-It's anachronistic to use the term "clickbait", but the concept itself is not an anachronism. References to women traveling with the army--and particularly Amazonian women--contributed to Flint's characterization of Cuban insurgents as "little men with machetes".[3.6] By contrast, Rea described Cuban forces in more formal, less barbaric terms than Flint: forces, armies, and camps make their military appearance. The noble-savage trope conjured up by Amazonian women traveling with their spouses and wielding machetes for the good of their country offer up a journalistic hook that scoops the US reader into a journalistic narrative of Cuba, with General Gomez as its avatar and his troops as bands of savage warriors, in need of the civilizing force of imperial expansion. Women fighters certainly did exist and were part of the Cuban insurgency, but the combination of computational and close-reading analysis is what led us to the narrative treatment of these women as late-19th-century clickbait.
+It's anachronistic to use the term "clickbait", but the concept itself is not an anachronism. References to women traveling with the army--and particularly Amazonian women--contributed to Flint's characterization of Cuban insurgents as "little men with machetes".[3.6] By contrast, Rea described Cuban forces in more formal, less barbaric terms than Flint: forces, armies, and camps make their military appearance. ***EDIT: include bit about Boza and Arlene's close read of his take on Flint.*** The noble-savage trope conjured up by Amazonian women traveling with their spouses and wielding machetes for the good of their country offer up a journalistic hook that scoops the US reader into a journalistic narrative of Cuba, with General Gomez as its avatar and his troops as bands of savage warriors, in need of the civilizing force of imperial expansion. Women fighters certainly did exist and were part of the Cuban insurgency, but the combination of computational and close-reading analysis is what led us to the narrative treatment of these women as late-19th-century clickbait.
 
 [^3-2]: Flint, 124.
 [^3-3]: Moravec
@@ -206,7 +208,7 @@ It's anachronistic to use the term "clickbait", but the concept itself is not an
 [^3-5]: Madam Gonzalez
 [^3-6]: Topic 7 in Rea
 
-___
+#### THINGS TO STILL ADDRESS IN STEP 3-4
 
 Together, we see: Amazons as a hook. 
 
@@ -228,6 +230,10 @@ Differences between the authors.
 <section id="Misinformation" markdown=1>
 
 # Information, Misinformation, and Connections in Cuba
+
+***transition from step3-4 initial results to step 5 final results using Boza and a reminder about Flint being accurate-ish except for the bit about Amazons***.
+
+Let's return to our case-study example of Flint and Rea's treatment of women in the field with General Gomez. 
 
 (BOTH BUT HANG ON TO THIS UNTIL WE CAN WRITE TOGETHER)
 
