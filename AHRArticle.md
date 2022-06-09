@@ -185,6 +185,7 @@ Our conversations as we negotiated the boundaries of the study and the first rou
 
 # “It’s more meaningful to do this together”: A Collaborative Analysis of Cuba from the Perspectives of Three War Correspondents
 
+*** Edits to this section will happen together but mostly in markdown***
 </section>
 <section id="Step3-4" markdown=1>
 
@@ -233,6 +234,8 @@ Differences between the authors.
 <section id="Misinformation" markdown=1>
 
 # Information, Misinformation, and Connections in Cuba
+
+*** Edits to this section will happen together probably in Word***
 
 ***transition from step3-4 initial results to step 5 final results using Boza and a reminder about Flint being accurate-ish except for the bit about Amazons***.
 
