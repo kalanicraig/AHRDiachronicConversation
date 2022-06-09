@@ -201,7 +201,7 @@ With Kalani focused on the historical trends in the corpus with little knowledge
 
 Among those considerations were our choice of stop words (words that the computational analysis should ignore), a conversation that also included the necessity to combine multi-word concepts (Dr. Hernandez, Mr. Hernandez, Francisco Hernandez = “FranciscoHernandez”) based on our triangulation of close-reading and computational distributional analysis. We also identified additional close-reading passages and areas of agreement or disagreement in interpretation drawn from both methods.
 
-One of those areas of consideration offers a good case-study of the method. In the computational analysis of Flint Kalani noted a topic that depended heavily on the female pronoun "she". Arlene initially flagged these as references to the Maine, the ship that sank in 1898 and was used to framed the narratives about 1896 and 1897 presented by Flint, Scovel and Rea. We went back to the primary source texts and the first occurrence we came across was a reference to the wife of a Cuban doctor who traveled with General Gomez and his troops.[^3-2] The difference between Kalani's assumptions about "she" and Arlene's assumptions about "she" suggested a further exploration was necessary.[^3-3] We used AntConc (a corpus-linguistics tool that shows all the occurrences of an identified word in their original context), and found 4 patterns. Two had to do with concepts: the Maine as Arlene had originally assumed, though this was a smaller percentage of the total mentions than either of us had expected.[^3-4] More interesting were the references to women traveling with Gomez' army, including Dr. Hernandez' wife and another married woman traveling with her husband, one of whom was described as an Amazon wielding a machete.[^3-5]
+One of those areas of consideration offers a good case-study of the method. In the computational analysis of Flint Kalani noted a topic that depended heavily on the female pronouns "she" and "her". Arlene initially flagged these as references to the Maine, the ship that sank in 1898 and was used to framed the narratives about 1896 and 1897 presented by Flint, Scovel and Rea. We went back to the primary source texts and the first occurrence we came across was a reference to the wife of a Cuban doctor who traveled with General Gomez and his troops.[^3-2] The difference between Kalani's assumptions about "she" and Arlene's assumptions about "she" suggested a further exploration was necessary.[^3-3] We used AntConc (a corpus-linguistics tool that shows all the occurrences of an identified word in their original context), and found 4 patterns. Two had to do with concepts: the Maine as Arlene had originally assumed, though this was a smaller percentage of the total mentions than either of us had expected.[^3-4] More interesting were the references to women traveling with Gomez' army, including Dr. Hernandez' wife and another married woman traveling with her husband, one of whom was described as an Amazon wielding a machete.[^3-5]
 
 It's anachronistic to use the term "clickbait", but the concept itself is not an anachronism. References to women traveling with the army--and particularly Amazonian women--contributed to Flint's characterization of Cuban insurgents as "little men with machetes".[3.6] By contrast, Rea described Cuban forces in more formal, less barbaric terms than Flint: forces, armies, and camps make their military appearance. One of Gomez' right-hand men, Bernabe Boza, describes Flint as *el inteligente Yankee* whose work, "although it contains some lies and misjudgements as is common in any work" is "the most impartial and exact [of the work by] war correspondents in the Cuban countryside."[^3-7] Boza goes on to describe Bronson Rea's work dishonest, and that such dishonesty would eventually shame Rea for his dishonesty. Boza's take on Flint, Scovel and Somerford are "three honest journalists and Cuba will always gbe thankful for the justice with which they treated the cindependence casue." TRANSITION AWAY FRMO FLINT The noble-savage trope conjured up by Amazonian women traveling with their spouses and wielding machetes for the good of their country offer up a journalistic hook that scoops the US reader into a journalistic narrative of Cuba, with General Gomez as its avatar and his troops as bands of savage warriors, in need of the civilizing force of imperial expansion. Women fighters certainly did exist and were part of the Cuban insurgency, but the combination of computational and close-reading analysis is what led us to the narrative treatment of these women as late-19th-century clickbait.
 
@@ -213,8 +213,6 @@ It's anachronistic to use the term "clickbait", but the concept itself is not an
 [^3-7]: Mi diario de la Guerra by Bernabé Boza
 
 #### THINGS TO STILL ADDRESS IN STEP 3-4
-
-Together, we see: Amazons as a hook. 
 
 Rea.
 savage, civilization, barbaric, noble, peace (esp cycled with Gomez)
@@ -252,47 +250,33 @@ Corpus Linguistics AntConc exploration of all 3 authors
 
 **FILL OUT JUN 9-15**: Neutral technocratic good/bad is a manufacturing of good/bad that aligns with imperialist expansionist principles. Silencing the imperialist subjects and making them invisible is a strategy of imperial communication. Cubans are made invisibile in all of the works of war correspondents; they are disappeared in the narrative). The narrative manufactures reality, and that’s what makes language, and our computational approaches to dissociating our positionality from the language, so important so that we can see better. Expansionism is also a key factor in the disappearance of the people of Cuba. By both gendering Cuba as a women (see section on Amazons) and disappearing its people, the war correspondents render Cuba as an empty female waiting to be filled by the presence of imperial forces (whether Cuba's femininty is white and pristine or "mulatto" and dangerous.) Ann McClean CITE FROM INTRO.
 
-When would-be imperial subjects are visible, they are connected to nature and disconnected from the modernity of core imperial life. Gomez and the use of machetes is one of those connections.
-
-
-OVERARCHING QUESTION ABOUT GOMEZ AS CONTROVERSIAL (vs Maceo as brave and Black and already established in terms of his braveness, so he’s a less clickbaity character; see Flint section on our identification of clickbait/hook as a thing).
-
-- *info* for all of them (Corpus linguistics): Flint is not interested in "information". Rea and Scovel are very concerned with reliability of information (they hang out together in 1897 and are potentially influencing each other). Flint visits in 1896, so there's a rupture in the pattern of concern about "reliable information" that is less about author and more about the timing (but the division of the corpora into three smaller chunk helped us see that.)
-- lazy: Rea and Scovel again, not Flint
-- machete: Rea and Flint (~20 mentions from Scovel of the 132 hits, it's mostly Rea and Flint)
+When would-be imperial subjects are visible, they are presented in one of two ways designed to diminish their stature within the pantheon of imperial good/bad. In one case, they are connected to nature and disconnected from the modernity of core imperial life. Gomez, Maceo, and the use of machetes is one of those connections. Women and Gomez use machetes, implicitly tying Cuban insurgents to the world of savage weapons used by women. It further accentuates the work we noticed "she" as a pronoun doing in the corpus. machete: Rea and Flint (~20 mentions from Scovel of the 132 hits, it's mostly Rea and Flint)
 	- On Maceo: "the sight of him, with his death-dealing machete upraised, was sufficient to cause the Spanish impedimenta to spur on their foaming horses in vain attempts to clear his path" Rea, 302
 	- "She led two machete charges" Flint 122 ("Madame Paulina Ruiz Gonzales, wife of Captain Rafael Gonzales, an officer of Pancho Perez, brigadier-general of the Santa Clara division. Some months before she had left her home in Corral Falso by night, and met a party of insurgents on the outskirts of the town.  She rode off, astride an extra horse, to the force of Manolo Menendez").
-- impediment* = badly organized (swearing, clattering, according to Flint in 99 and 100), barriers, burdens
-
-Flint (writes in 1896)
-
-Kalani saw: gendered nature of Flint’s writing.
-Arlene saw: the hook. Use “clickbait” intentionally as an anachronism.
-
-Together, we see: Amazons as a hook. It’s fine to report that there are women fighters–they exist and are part of the insurgency–but the combination of computational and close-reading analysis led us to this hook.
-
+The genderizing of Cuba pushed us to dig deeper. 
+- "She" shows up (Madame Hernandez and Madam Gonzales) but CUBA is also a "she"
+- "She" shows up with "machete". We explored some of the gendered structures in the text and found in Rea 136 an little Amazon with a machete (Dr. Hernandez' wife in Flint 124) Rea (writes in 1896-7, publishes 1897)
+- She = Maine . There are no women in Scovel
+	
+**FILL OUT JUN 9-15**: In the second, they are presented as bumbling or savage: - impediment* badly organized:  (swearing, clattering, according to Flint in 99 and 100), barriers, burdens
 Insurgents are
 - corpus linguistics: forces, armies, camps. A few chiefs here and there but it's more formal and less barbaric than Rea
 - little men with machetes (topic 7).
-- "She" shows up (Madame Hernandez and Madam Gonzales) but CUBA is also a "she"
-- "She" shows up with "machete". We explored some of the gendered structures in the text and found in Rea 136 an little Amazon with a machete (Dr. Hernandez' wife in Flint 124)
-Rea (writes in 1896-7, publishes 1897)
-
-Maceo is an avatar for Cubans in the topic model (shows up regularly with "cuban" and "cubans", topics 1,2,3, 7, 8). Gomez only shows up with concepts of Cubans as people when he is *with* Maceo; he's much more associated with Spain (Spain, Spanishl topics 6, 4).
-
-- Maceo is the "truth", the collective representation of the *people* of Cuba.
-- Gomez is "fake news", the collective representation of unreliable information about *Spain*. Rea sets him up as an anti-hero to compare to Spain and make Spain not seem so bad.
-
-The two together are tropes designed to shape public opinion from the US perspective (also Rea and his corpus-linguistics treatment of unreliable *info*) (This is an example of TRANSCULTURAL move–re: Hulme)
-
-Insurgents are
 - chiefs or chieftains, not generals; sympathizers, not troops. It's the language of a barbaric tribe of people
 Scovel (writes from 1896 to 1898)
 
+ 
+These presentations of Gomez and Maceo are, like the genderizing of Cuba, designed to provide an avatar of Cuba and its need to be rescued from its own brave noble savagery. Maceo is an avatar for Cubans in the topic model (shows up regularly with "cuban" and "cubans", topics 1,2,3, 7, 8). Gomez only shows up with concepts of Cubans as people when he is *with* Maceo; he's much more associated with Spain (Spain, Spanishl topics 6, 4). OVERARCHING QUESTION ABOUT GOMEZ AS CONTROVERSIAL (vs Maceo as brave and Black and already established in terms of his braveness, so he’s a less clickbaity character; see Flint section on our identification of clickbait/hook as a thing).
+- Maceo is the "truth", the collective representation of the *people* of Cuba.
+- Gomez is "fake news", the collective representation of unreliable information about *Spain*. Rea sets him up as an anti-hero to compare to Spain and make Spain not seem so bad.
+- lazy: Rea and Scovel again, not Flint
+The two together are tropes designed to shape public opinion from the US perspective (also Rea and his corpus-linguistics treatment of unreliable *info*) (This is an example of TRANSCULTURAL move–re: Hulme)
 - Insurgents are very formal (more so than Flint but aligned in similar ways)
-- She = Maine . There are no women in Scovel
 - Cubans as people, Spain as country (like Rea, but without the avatars of Maceo and Gomez)
-Information and Misinformation
+
+**FILL OUT JUN 9-15**: *info* for all of them (Corpus linguistics): Flint is not interested in the reliability of "information" but Rea and Scovel *are* very concerned with reliability of information (they hang out together in 1897 and are potentially influencing each other). Flint visits in 1896, so there's a rupture in the pattern of concern about "reliable information" that is less about author and more about the timing (but the division of the corpora into three smaller chunk helped us see that.)
+
+**FILL OUT JUN 9-15**:  Information and Misinformation
 Arlene quote: “Whatever you put it in is whatever you get out.” –i.e. There is no magic wand. You have to curate the sources to be able to produce different visualizations of the sources that allow you to see them ‘anew’, to corroborate what you intuited, or provide more nuance, or add other layers and connections you could not see before. May 16, with Guldi.
 
 </section>
