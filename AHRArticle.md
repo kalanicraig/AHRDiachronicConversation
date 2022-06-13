@@ -176,6 +176,8 @@ Our close-reading analysis depended on a fairly traditional historiography prese
 <input type="checkbox" id="LSI-Colab" class="margin-toggle sf-hidden">
 <span class="sidenote">Repeatable point-and-click versions of code in “notebooks”--we considered both Google Colab Notebooks and Jupyter Notebooks–are a common, easily accessible way to tackle computational analysis. Recent changes to several of the dependencies (or software-installation requirements) for LDA makes it harder to run in these easy-to-use environments, and MMATCH rendered us acutely aware of the need to provide a responsible structured, but also easy to use, approach to computational modeling.</span>
 
+Third, and most important, the topical flyover of our corpus is a means to display and analyze links between the very particular nature of the Cuban War of Independence and a broader US technocratic imperialism in which that war was framed. *Describing his own mature view, Wallerstein (2000: xvii) argues that the social sciences were founded on a false methodological distinction and that, to prosper, “all [social] analysis, if it were to grapple seriously with the description and explanation of the real world, had to be simultaneously historic and systemic.” **ROLL IN IMPERIALISM AND MASS-QUANTITY DOCUMENTS, PLUS WORLD-SYSTEMS, HERE. Jason Baird Jackson. "Towards Wider Framings: World-Systems Analysis and Folklore Studies" in *Journal of Ethnology and Folkloristics* 16 (1): 1–28. DOI: 10.2478/jef-2022-0002*
+
 [^2-11]: Blei, Schmidt
 [^2-12]: Guldi, Schmidt is going to hate this, but also we understand distributional stats well enough to accept that these analyses are here to guide us to close reading, not to be a final distant-reading-only approach to our corpus
 
