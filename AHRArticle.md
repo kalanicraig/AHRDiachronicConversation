@@ -21,9 +21,9 @@ sidebar: toc
   - Maceo/Maseo, and all of those variations
   - Velasquecz
 - Spanish stopwords and fixes
-  - confirm 
-  - al, por, que, para, segun, asia, ha, sin, como, 
-  - espaã espana (the tilde n and other stuff is creating issues)
+  - Arlene: "I am including some that are gendered and possessives bc we can get at those issues in a stronger way through other articles and adverbs.""
+  - "al", "como", "con", "es", "ha", "hacia", "le", "les", "lo", "los", "no", "para", "por", "que", "segun", "sin", "su", "sus", "un", "una", "uno", "este", "está", "esta", "estas", "esto", "estos"
+  - add "del" and "las" together
 # Introduction
 
 ## The historiographic stakes of late 19th-century Caribbean history
