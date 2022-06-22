@@ -14,7 +14,7 @@ sidebar: toc
 <section id="introduction" markdown=1>
 
 # To Do Cleanup
-- Add diacritical marks to Gomez and other proper names
+- *DID NOT DO THESE* Add diacritical marks to Gomez and other proper names
 - Document list of names for which we normalized or stripped diacritical marks in English
   - strip diacritical marks from English texts entirely
   - Gomez/Gomes, Fernandes/z, Hernandez/s (regex?)
@@ -24,6 +24,18 @@ sidebar: toc
   - Arlene: "I am including some that are gendered and possessives bc we can get at those issues in a stronger way through other articles and adverbs.""
   - "al", "como", "con", "es", "ha", "hacia", "le", "les", "lo", "los", "no", "para", "por", "que", "segun", "sin", "su", "sus", "un", "una", "uno", "este", "está", "esta", "estas", "esto", "estos"
   - add "del" and "las" together
+- Outcome of June 22 analysis
+  - AntConc video to look at for words:
+    - consejo
+    - gobierno
+    - cuba
+    - escorta
+    - maceo
+    - jose
+    - delegado
+    - mismo
+  - 
+
 # Introduction
 
 ## The historiographic stakes of late 19th-century Caribbean history
