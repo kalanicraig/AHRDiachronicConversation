@@ -5,17 +5,14 @@ sidebar: toc
 ---
 
 
-<!-- # Table of Contents
-
 * Placeholder for Table of Content
 {:toc}
--->
 
 <section id="introduction" markdown=1>
 
 Kalani Craig, Arlene J. Díaz, and David Kloster
 
-# A Diachronic Conversation with 19th-Century War Correspondents and 21st-Century Historians: Digital History, Archival Deep-Dives, and Imperial United States in Cuba's Second War of Independence**
+# A Diachronic Conversation with 19th-Century War Correspondents and 21st-Century Historians: Digital History, Archival Deep-Dives, and Imperial United States in Cuba's Second War of Independence
 
 At first glance, US historiography on the Spanish-Cuban-American War (1895-1898) may seem exhaustive. However, with some exceptions, most of what has been written has privileged US sources and perspectives on the war, focusing on the moment when the United States militarily intervened in the ongoing armed conflict between Spain and Cuba, and justified their actions as a fulfillment of their moral duty to help Cubans gain their independence.[1](#_ftn1)
 
@@ -63,7 +60,7 @@ From the first pages on, the historical Spanish presence in this hemisphere is d
 
 The news stories by Scovel and the books by Rea and Flint provide a unique opportunity to dig deeper into the ways these correspondents transculturally translated General Gómez, the insurgent leader, and the war situation in Cuba to US readers. What words did they use to talk about General Gómez, what meanings or sentiments were attached to those words, and what does this say about the different representations of Cuba addressed to a US readership? How did their stories seek to grab the public's attention and what semiotic strategies did they use in their representations of Cuba to make their foreign reality intelligible to the American audience? And how does our positionality as modern scholars embedded in a different kind of empire shape our reading of these sources?
 
-## Grounding History in Method-Driven Approaches with MMATCH: An Overview of Mixed-Method Approaches to Collaborative History (MMATCH) as One Solution to the Epistemological Challenges of Digital History**
+## Grounding History in Method-Driven Approaches with MMATCH: An Overview of Mixed-Method Approaches to Collaborative History (MMATCH) as One Solution to the Epistemological Challenges of Digital History
 
 _At the beginning, I could not see the beauty of \[computational text analysis\]. I felt like it was in the theoretical stratosphere. But the practical reality is that, as a scholar, I can see \[in the different visualizations it provides\] what I'm thinking about grounded in the trends the data gives to me. At the same time, I also know that the data and the visualizations need to be curated and interpreted._
 
